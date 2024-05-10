@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="calculator.css" />
     <script src="calculator.js" defer></script>
   </head>
   <body>
+    <a href="https://github.com/adelanaoreoluwa/calculator2" target="_blank">
+      link to repository
+    </a>
     <div class="main">
-        <input type="text" id="display" placeholder="0" readonly />
-      
+      <p></p>
+      <input type="text" id="display" placeholder="0" readonly />
 
       <table>
         <tr>
@@ -42,8 +45,12 @@
         </tr>
 
         <tr>
-          <td colspan="2"><button onclick="clearDisplay()" class="cal">AC</button></td>
-          <td colspan="2"><button onclick="deleteLast('')" class="cal">DE</button></td>
+          <td colspan="2">
+            <button onclick="clearDisplay()" class="cal">AC</button>
+          </td>
+          <td colspan="2">
+            <button onclick="deleteLast('')" class="cal">DE</button>
+          </td>
         </tr>
       </table>
     </div>
