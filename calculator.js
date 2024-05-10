@@ -30,15 +30,3 @@ function calculation(){
 }
 
 
-//function to clear the display
-function clearDisplay (){
-    newInput = '';
-    document.getElementById('display').value = newInput;
-}
-
-//function to delete a slice of elements
-
-function deleteLast(){
-    newInput = newInput.slice(0, -1);
-    document.getElementById('display').value = newInput;
-}
